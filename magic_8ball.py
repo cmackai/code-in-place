@@ -9,6 +9,7 @@ def main():
     """
 
     """
+
     one_shake()
 
 def one_shake():
@@ -25,8 +26,7 @@ def one_shake():
             print("Cannot predict now.")
         if x == 5:
             print("Don't count on it")
-    user_input == ""
-
+        user_input = input("Ask a yes or no question: ")
 
 # This provided line is required at the end of a Python file
 # to call the main() function.
