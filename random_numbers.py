@@ -15,7 +15,8 @@ def main():
     """
     This program will print a list of 10 integers from 0 - 100
     """
-
+    # Prints an amount of random numbers from a predetermined range
+    # This can be changed using the constants above
     for i in range(NUM_RANDOM):
         print(random.randint(MIN_RANDOM, MAX_RANDOM))
 

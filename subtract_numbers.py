@@ -12,11 +12,15 @@ def main():
     the value for the user.
     """
     subtract_two_numbers()
-def subtract_two_numbers
+
+def subtract_two_numbers():
     print("This program subtracts one number from another")
+    # Prompts user for first number
     num1 = float(input("Enter first number "))
+    # Prompts user for second number
     num2 = float(input("Enter second number "))
-    total = num1 + num2
+    # Determines the answer
+    total = num1 - num2
     print("The result is " + str(total))
 
 # This provided line is required at the end of a Python file

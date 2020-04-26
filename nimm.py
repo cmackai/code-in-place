@@ -29,6 +29,7 @@ def main():
                     player_pick = int(input("Please enter only 1 or 2: "))
                 total_stones -= player_pick
                 players_turn += 1
+    # Makes sure that if only one stone is left, the player can only take one
     while total_stones == 1:
         print("There are " + str(total_stones) + " stones left")
         if players_turn == 1:
