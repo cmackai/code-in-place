@@ -9,6 +9,9 @@ def main():
     """
 
     """
+    play_nimm()
+
+def play_nimm():
     total_stones = 20
     players_turn = 1
 
